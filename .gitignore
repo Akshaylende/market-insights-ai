@@ -1,0 +1,5 @@
+# List of files to ignore in Git Repository track
+
+.venv
+.env
+app/__pycache__

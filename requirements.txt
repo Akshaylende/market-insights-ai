@@ -1,0 +1,9 @@
+# List of Dependencies (python packages) 
+
+fastapi
+requests
+python-dotenv
+uvicorn 
+yfinance
+langchain
+faiss-cpu
