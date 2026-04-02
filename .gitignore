@@ -3,3 +3,7 @@
 .venv
 .env
 app/__pycache__
+app/config/__pycache__
+app/agents/__pycache__
+app/services/__pycache__
+app/orchestrator/__pycache__
