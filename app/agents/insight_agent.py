@@ -17,7 +17,7 @@ structured_llm = llm.with_structured_output(StockInsight)
 
 
 # Function to generate Insights on Stock based on news & stock prices from LLM
-def generate_insight(stock_data, news):
+def generate_insight(stock_data, news, technicals, sentiment):
     prompt = f"""
     Analyze the following stock:
 
@@ -27,6 +27,11 @@ def generate_insight(stock_data, news):
     News:
     {news}
  
+    Sentiment:
+    {sentiment}
+
+    Technical Indicators:
+    {technicals}
 
     Give a short Summary, Risk level (Low/Medium/High), Recommendation (Buy/Hold/Sell) and Reasoning within 5-6 sentences only.
     """
