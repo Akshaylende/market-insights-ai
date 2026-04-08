@@ -5,5 +5,11 @@ requests
 python-dotenv
 uvicorn 
 yfinance
-langchain
 faiss-cpu
+langchain
+langchain-community
+langchain-google-genai 
+google-generativeai
+pydantic
+numpy
+pandas
