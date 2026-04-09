@@ -1,10 +1,5 @@
 # market-insights-ai
 
-AI Agent for Market Insights (Multi-Agent System)
-
-
-
-
 # 📊 AI Market Insights Agent (Multi-Agent System)
 
 ## 🚀 Overview
